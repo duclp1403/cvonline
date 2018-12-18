@@ -1,0 +1,39 @@
+
+
+tạo 1 record trong bảng member
+tạo 1 record trong bản project
+query xuất dữ liệu ra tên project+list member of project
+query chỉ định thành viên cho project đó
+
+
+
+allquery
+
+select * from membertest
+
+insert into membertest values('Nguyen Van A','0123456789')
+insert into membertest values('Nguyen Van B','0129999999')
+insert into membertest values('Nguyen Thi C','8888888888')
+insert into membertest values('Banh Van Z','777777777777')
+
+select * from projecttest
+insert into projecttest values('Quản lý nhà hàng')
+insert into projecttest values('Quản lý Trường học')
+
+update membertest set tenpjthamgia='Quản lý Trường học' 
+where name='Nguyen Van A'
+
+delete from membertest where name=''
+
+
+update membertest set tenpjthamgia='Quản lý Nhà Hàng' 
+where name='Nguyen Van A'
+
+
+
+
+
+
+
+
+
